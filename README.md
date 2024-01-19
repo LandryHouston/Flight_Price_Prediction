@@ -21,8 +21,8 @@ Welcome to the our project repository! In this project, we aim to address the ch
    - 1.5 Summary
 
 2. [Data Modeling](02_Data_Modeling.ipynb)
-   - 2.1 Linear Regression Algorithm
-   - 2.2 Time Series Modeling (RNN)
+   - 2.1 Feature Engineering
+   - 2.2 Linear Regression Algorithm
    - 2.3 Model Training
    - 2.4 Model Evaluation
    - 2.5 Summary
