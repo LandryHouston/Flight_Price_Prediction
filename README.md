@@ -1,5 +1,4 @@
-# group-1-project "SkyInsight: Predictive Analytics for Cost-Effective Air Travel"
-
+# SkyInsight: Predictive Analytics for Cost-Effective Air Travel
 
 ![AltText](https://www.latentview.com/wp-content/uploads/2023/08/ai-and-analytics-in-the-airline-industry-driving-efficiency-and-enhancing-cx-featured.jpg)
 
@@ -14,41 +13,45 @@ Welcome to the our project repository! In this project, we aim to address the ch
 ## Table of Content
 
 1. [Data Wrangling/Gathering/Acquisition](01_Data_Wrangling_Gathering_Acquisition.ipynb)
-   - 1.1 Introduction
-   - 1.2 Data Collection
-   - 1.3 Data Cleaning
-   - 1.4 Data Transformation
-   - 1.5 Summary
+
+    - 1.1 Introduction
+    - 1.2 Data Collection
+    - 1.3 Data Cleaning
+    - 1.4 Data Transformation
+    - 1.5 Summary
 
 2. [Data Modeling](02_Data_Modeling.ipynb)
-   - 2.1 Linear Regression Algorithm
-   - 2.2 Time Series Modeling (RNN)
-   - 2.3 Model Training
-   - 2.4 Model Evaluation
-   - 2.5 Summary
+
+    - 2.1 Linear Regression Algorithm
+    - 2.2 Time Series Modeling (RNN)
+    - 2.3 Model Training
+    - 2.4 Model Evaluation
+    - 2.5 Summary
 
 3. [Data Evaluation/Executive Summary/Recommendation](03_Data_Evaluation_Executive_Summary.ipynb)
-   - 3.1 Model Performance Metrics
-   - 3.2 Key Findings
-   - 3.3 Recommendations, Insights and Conclusions
-   - 3.4 Summary and Future Enhancements
+
+    - 3.1 Model Performance Metrics
+    - 3.2 Key Findings
+    - 3.3 Recommendations, Insights and Conclusions
+    - 3.4 Summary and Future Enhancements
 
 4. [Data](data/)
-   - 4.1 Dataset Dictionary
-   - 4.2 Data Files
+
+    - 4.1 Dataset Dictionary
+    - 4.2 Data Files
 
 5. [Images](images/)
-   - 5.1 Visualizations
-   - 5.2 Charts
+
+    - 5.1 Visualizations
+    - 5.2 Charts
 
 6. [Presentation](presentation/)
-   - 6.1 PowerPoint Presentation (PDF)
+
+    - 6.1 PowerPoint Presentation (PDF)
 
 7. [Model](model/)
-   - 7.1 .gitignore
-   - 7.2 Trained Model (.pkl)
-   
-
+    - 7.1 .gitignore
+    - 7.2 Trained Model (.pkl)
 
 ---
 
@@ -70,7 +73,6 @@ Welcome to the our project repository! In this project, we aim to address the ch
 | price          | int    | ticket price in USD               |
 
 </div>
-
 
 ---
 
