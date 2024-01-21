@@ -1,4 +1,5 @@
-# group-1-project "SkyInsight: Predictive Analytics for Cost-Effective Air Travel"
+# group-1-project | Fare Play: An Unraveling of the Mystery of Flight Prices
+
 
 
 ![AltText](https://www.latentview.com/wp-content/uploads/2023/08/ai-and-analytics-in-the-airline-industry-driving-efficiency-and-enhancing-cx-featured.jpg)
@@ -18,35 +19,27 @@ Welcome to the our project repository! In this project, we aim to address the ch
    - 1.2 Data Collection
    - 1.3 Data Cleaning
    - 1.4 Data Transformation
-   - 1.5 Summary
 
 2. [Data Modeling](02_Data_Modeling.ipynb)
    - 2.1 Feature Engineering
    - 2.2 Linear Regression Algorithm
    - 2.3 Model Training
    - 2.4 Model Evaluation
-   - 2.5 Summary
+   - 2.5 Summary and Future Enhancements
 
-3. [Data Evaluation/Executive Summary/Recommendation](03_Data_Evaluation_Executive_Summary.ipynb)
-   - 3.1 Model Performance Metrics
-   - 3.2 Key Findings
-   - 3.3 Recommendations, Insights and Conclusions
-   - 3.4 Summary and Future Enhancements
+3. [Data](data/)
+   - 3.1 Dataset Dictionary
+   - 3.2 Data Files
 
-4. [Data](data/)
-   - 4.1 Dataset Dictionary
-   - 4.2 Data Files
+4. [Images](images/)
+   - 4.1 Visualizations
+   - 4.2 Charts
 
-5. [Images](images/)
-   - 5.1 Visualizations
-   - 5.2 Charts
+5. [Presentation](presentation/)
+   - 5.1 PowerPoint Presentation (PDF)
 
-6. [Presentation](presentation/)
-   - 6.1 PowerPoint Presentation (PDF)
-
-7. [Model](model/)
-   - 7.1 .gitignore
-   - 7.2 Trained Model (.pkl)
+6. [Model](model/)
+   - 6.1 Trained Model (.pkl)
    
 
 
@@ -87,8 +80,6 @@ To address our problem statement, we will explore the following questions:
 1. How can we preprocess and clean the data to ensure accurate predictions?
 2. What features are crucial for predicting optimal timeframes for lower-priced flights?
 3. How generalizable are the insights derived from this specific dataset to other airports or travel scenarios
-4. Are there specific seasons or timeframes where the model's predictions excel or struggle?
-5. What is the impact of external factors (e.g., holidays, events) on the accuracy of the model predictions?
 
 ---
 
@@ -100,18 +91,9 @@ In this section, we will detail the process of acquiring and preparing the data 
 
 ## Part 2: Data Modeling
 
-Here, we will delve into the application of the linear regression algorithm to our travel data. Additionally, we will discuss the potential use of a time series model like RNN for future enhancements.
+Here, we will delve into the application of the linear regression algorithm to our travel data. This section will provide an executive summary of our findings, including the evaluation of model performance and key insights derived from the data. Additionally, we will discuss the potential use of a time series model like RNN for future enhancements.
 
 ---
 
-## Part 3: Data Evaluation/Executive Summary
-
-This section will provide an executive summary of our findings, including the evaluation of model performance and key insights derived from the data.
-
----
-
-## Part 4: Recommendation/Further Research
-
-We'll conclude by offering recommendations based on our analysis and suggest avenues for further research to continually improve the predictive model.
 
 ![AltText](https://media.licdn.com/dms/image/D5612AQFwNc05_ndXIQ/article-cover_image-shrink_720_1280/0/1698694514274?e=1710979200&v=beta&t=ibpfjqzM24Lot2cKZ34GcW-3A4rDEQB5G5FKEhNEnhY)
