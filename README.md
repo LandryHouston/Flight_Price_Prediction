@@ -31,7 +31,7 @@ Welcome to our project repository! In this project, we aim to address the challe
     - 2.3 Analysis/Visuals
     - 2.4 Conclusion
 
-3. [Data Modeling](code/03_data_modeling.ipynb)
+3. [Data Modeling](code/03_modeling.ipynb)
 
     - 3.1 Introduction
     - 3.2 Regression Modeling
@@ -108,7 +108,7 @@ This analysis explores various factors influencing airline prices, shedding ligh
 
 <h2 align='center'>Part 3: Data Modeling</h2>
 
-This section will provide an executive summary of our findings, including the evaluation of model performance and key insights derived from the data. Four machine learning models were evaluated for predicting flight prices based on selected features, preprocessing, and cleaning methods. The models include Linear Regression, Random Forest, Decision Tree, and Gradient Boost. The Random Forest model, with its robust performance metrics, is recommended for predicting flight prices based on the provided dataset and features. Further optimization, a larger dataset,  and fine-tuning may enhance the model's predictive capabilities.
+This section will provide an executive summary of our findings, including the evaluation of model performance and key insights derived from the data. Four machine learning models were evaluated for predicting flight prices based on selected features, preprocessing, and cleaning methods. The models include Linear Regression, Random Forest, Decision Tree, and Gradient Boost. The Random Forest model, with its robust performance metrics, is recommended for predicting flight prices based on the provided dataset and features. Further optimization, a larger dataset, and fine-tuning may enhance the model's predictive capabilities.
 
 <div align='center'>
     
@@ -138,7 +138,6 @@ In this notebook, we also employ a Random Forest Classifier to predict the cardi
 <h2 align='center'> Conclusion </h2>
 
 In summary, our analysis centered on developing an advanced predictive model for travel agencies, addressing the resurgence of flight travel post-COVID-19. The Random Forest model emerged as the most effective, achieving a remarkable RMSE score of 42.75. This outcome provides robust evidence of the model's ability to predict flight prices with high accuracy. Aligned with our problem statement's focus on optimizing for RMSE, the model is poised to deliver personalized recommendations, strategic advice on optimal timeframes, and actionable insights for travel agencies. The exceptional performance not only meets but surpasses our expectations. This initiative is positioned to enhance customer satisfaction, streamline the booking process, and empower travel agencies in navigating the dynamic airfare pricing landscape.
-
 
 <br>
 
