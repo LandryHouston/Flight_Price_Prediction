@@ -8,6 +8,8 @@
 
 </div>
 
+---
+
 <h2 align='center'> Overview </h2>
 
 Welcome to the our project repository! In this project, we aim to address the challenges faced by travel agencies in the post-COVID-19 era. Our focus is on developing an advanced predictive model that offers personalized recommendations for cost-effective flight options, ultimately enhancing customer satisfaction and empowering travel agencies with valuable insights.
@@ -16,42 +18,40 @@ Welcome to the our project repository! In this project, we aim to address the ch
 
 <h2 align='center'>Table of Content</h2>
 
-1. [Data_Cleaning](01_data_cleaning.ipynb)
+1. [Data Cleaning](code/01_data_cleaning.ipynb)
 
     - 1.1 Introduction
     - 1.2 Data Collection
     - 1.3 Data Cleaning
 
-2. [Data Analysis](02_Data_Analysis.ipynb)
+2. [Data Analysis](code/02_data_analysis.ipynb)
 
     - 2.1 Introduction
     - 2.2 Data Tranformation/Engineering
     - 2.3 Analysis/Visuals
     - 2.4 Conclusion
 
-3. [Data Modeling](03_Data_Modeling.ipynb)
+3. [Data Modeling](code/03_data_modeling.ipynb)
 
     - 3.1 Introduction
     - 3.2 Regression Modeling
-    - 3.3 Classification Modeling
-    - 3.4 Data Visualization
+    - 3.3 Data Visualization
+    - 3.4 Conclusion
 
 4. [Data](data/)
 
-    - 4.1 Dataset Dictionary
+    - 4.1 Data Dictionary
     - 4.2 Data Files
 
 5. [Images](images/)
 
     - 5.1 Visualizations
-    - 5.2 Charts
 
-6. [Presentation](presentation/)
+6. [Presentation](FarePlay.pdf)
 
     - 6.1 PowerPoint Presentation (PDF)
 
-7. [Model](model/)
-    - 7.1 Trained Model (.pkl)
+<br>
 
 ---
 
@@ -80,15 +80,7 @@ Welcome to the our project repository! In this project, we aim to address the ch
 
 With the resurgence of travel following the COVID-19 pandemic, our objective is to develop an advanced predictive model tailored for travel agencies. The model aims to assist travel agencies in providing their customers with personalized recommendations for securing the most cost-effective flight options from a specific airport. By leveraging historical data, the model will predict optimal timeframes for lower-priced flights, enabling travel agencies to offer strategic advice to their customers. This initiative seeks to enhance customer satisfaction, streamline the booking process, and empower travel agencies with actionable insights to navigate the dynamic landscape of airfare pricing and seasonal trends. The model will attempt to optimize for RMSE in order to make our performance as accessible as possible.
 
----
-
-<h2 align='center'>Hypothesis</h2>
-
-Null Hypothesis:
-The mean Root Mean Squared Error (RMSE) of our flight price and travel assistant model is greater than or equal to $50 ofthe actual prices, indicating that our model does not effectively predict prices within the acceptable range.
-
-Alternative Hypothesis:
-The mean RMSE of our flight price and travel assistant model is less than 50$ of the actual prices,suggesting that our model successfully predicts prices within the acceptable range.
+The goal is to have the Root Mean Squared Error (RMSE) of our flight price and travel assistant model be less than $50 of the actual prices.
 
 ---
 
@@ -121,4 +113,8 @@ flight prices over time in order to give a more robust assistance.
 
 <br>
 
+<div align='center'>
+
 ![AltText](https://media.licdn.com/dms/image/D5612AQFwNc05_ndXIQ/article-cover_image-shrink_720_1280/0/1698694514274?e=1710979200&v=beta&t=ibpfjqzM24Lot2cKZ34GcW-3A4rDEQB5G5FKEhNEnhY)
+
+</div>
