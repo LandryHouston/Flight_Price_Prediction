@@ -102,14 +102,35 @@ In this section, we will detail the process of acquiring and preparing the data 
 
 <h2 align='center'>Part 2: Data Analysis</h2>
 
-Here, we will delve into the application of the linear regression algorithm to our travel data. This section will provide an executive summary of our findings, including the evaluation of multiple model performance and key insights derived from the data.
+This analysis explores various factors influencing airline prices, shedding light on key trends and considerations. Notable findings include the presence of outliers above $1200, emphasizing the need to consider airline pricing tendencies in dynamic markets. Vistara and Air India, with significantly higher averages, stand out as major players, driven by their market control, operational scale, and demand for consistent service. Airport location impacts pricing, with Delhi and Hyderabad offering slightly lower fares, attributed to efficient cost distribution and central positioning, respectively. Mumbai and Delhi emerge as popular destinations, while Hyderabad stands out as a cost-effective departure point due to its central location. Time analysis reveals night and mid-afternoon departures as more affordable, aligning with lower demand during these periods. First-class travel unsurprisingly commands higher prices. Trips with one stop, being the most frequent, correlate with higher costs, indicating high demand for this travel style. Correlation analysis identifies attributes like class, airline choice, and duration as most influential. The Folium Map visually displays the locations of analyzed airports, providing geographical context to the findings. This comprehensive exploration aims to enhance understanding and decision-making in the dynamic realm of airline pricing.
 
 ---
 
 <h2 align='center'>Part 3: Data Modeling</h2>
 
-This section will provide an executive summary of our findings, including the evaluation of model performance and key insights derived from the data. Additionally, we will make future recommendations where we will discuss the potential use of a time series model like RNN for future enhancements. Expand upon the online form that when you put in your budget and starting location, the model can predict and advise what directions and locations would fit your desires. And lastly, take into account the change of
-flight prices over time to give more robust assistance.
+This section will provide an executive summary of our findings, including the evaluation of model performance and key insights derived from the data. Four machine learning models were evaluated for predicting flight prices based on selected features, preprocessing, and cleaning methods. The models include Linear Regression, Random Forest, Decision Tree, and Gradient Boost. The Random Forest model, with its robust performance metrics, is recommended for predicting flight prices based on the provided dataset and features. Further optimization, a larger dataset,  and fine-tuning may enhance the model's predictive capabilities.
+
+| Model                | Training Score | Testing Score | RMSE Score |
+|----------------------|-----------------|---------------|------------|
+| Linear Regression    | 0.9428          | 0.9420        | 65.64      |
+| Random Forest        | 0.9793          | 0.9754        | 42.75      |
+| Decision Tree        | 0.9291          | 0.9283        | 72.94      |
+| Gradient Boost (XGB) | 0.9593          | 0.9586        | 55.81      |
+
+In this notebook, we also employ a Random Forest Classifier to predict the cardinal direction of flights. The goal is to develop a robust model capable of accurately determining flight directions. Through feature importance analysis, we identify arrival time, departure time, and ticket price as crucial predictors. Fine-tuning the model using Grid Search reveals optimal hyperparameters below. The model's effectiveness is evaluated with an accuracy score, reaching a noteworthy 0.8994 on the test set. This notebook provides a comprehensive exploration of the classification modeling process, emphasizing feature selection, model tuning, and insights into the predictive capabilities of the Random Forest Classifier for flight direction prediction.
+
+| Parameter                 | Value |
+|---------------------------|-------|
+| `rfc__max_depth`          | 30    |
+| `rfc__min_samples_leaf`   | 1     |
+| `rfc__min_samples_split`  | 2     |
+| `rfc__n_estimators`       | 160   |
+| accuracy                  |  0.8994 |
+
+<h2 align='center'> Conclusion </h2>
+
+In summary, our analysis centered on developing an advanced predictive model for travel agencies, addressing the resurgence of flight travel post-COVID-19. The Random Forest model emerged as the most effective, achieving a remarkable RMSE score of 42.75. This outcome provides robust evidence of the model's ability to predict flight prices with high accuracy. Aligned with our problem statement's focus on optimizing for RMSE, the model is poised to deliver personalized recommendations, strategic advice on optimal timeframes, and actionable insights for travel agencies. The exceptional performance not only meets but surpasses our expectations. This initiative is positioned to enhance customer satisfaction, streamline the booking process, and empower travel agencies in navigating the dynamic airfare pricing landscape.
+
 
 <br>
 
