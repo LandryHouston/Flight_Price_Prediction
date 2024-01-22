@@ -91,22 +91,22 @@ To address our problem statement, we will explore the following questions:
 
 ---
 
-## Part 1: Data Wrangling/Gathering/Acquisition
+## Part 1: Data Cleaning
 
 In this section, we will detail the process of acquiring and preparing the data for our predictive model. This includes data gathering, cleaning, and any necessary transformations. Some of the task explored in this section is that we will converted Rupees to USD, duration into minutes, number of stops column changed to numeric, binarize the 'class' column for better modeling and column labels cleaned up.
 
 ---
 
-## Part 2: Data Modeling
+## Part 2: Data Analysis
 
-Here, we will delve into the application of the linear regression algorithm to our travel data. This section will provide an executive summary of our findings, including the evaluation of model performance and key insights derived from the data. Additionally, we will make future recommendation where we will discuss the potential use of a time series model like RNN for future enhancements. Expand upon the online form that when you put in your budget and starting location, the model can predict and advise what directions and locations that would fit your desires. And lastly, take into account the change of
-flight prices over time in order to give a more robust assistance.
+Here, we will delve into the application of the linear regression algorithm to our travel data. This section will provide an executive summary of our findings, including the evaluation of multiple model performance and key insights derived from the data.
 
 ---
 
-## Part 3: Data Evaluation/Executive Summary
+## Part 3: Data Modeling
 
-This section will provide an executive summary of our findings, including the evaluation of model performance and key insights derived from the data.
+This section will provide an executive summary of our findings, including the evaluation of model performance and key insights derived from the data. Additionally, we will make future recommendation where we will discuss the potential use of a time series model like RNN for future enhancements. Expand upon the online form that when you put in your budget and starting location, the model can predict and advise what directions and locations that would fit your desires. And lastly, take into account the change of
+flight prices over time in order to give a more robust assistance.
 
 ---
 
