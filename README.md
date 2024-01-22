@@ -12,7 +12,7 @@
 
 <h2 align='center'> Overview </h2>
 
-Welcome to the our project repository! In this project, we aim to address the challenges faced by travel agencies in the post-COVID-19 era. Our focus is on developing an advanced predictive model that offers personalized recommendations for cost-effective flight options, ultimately enhancing customer satisfaction and empowering travel agencies with valuable insights.
+Welcome to our project repository! In this project, we aim to address the challenges faced by travel agencies in the post-COVID-19 era. Our focus is on developing an advanced predictive model that offers personalized recommendations for cost-effective flight options, ultimately enhancing customer satisfaction and empowering travel agencies with valuable insights.
 
 ---
 
@@ -27,7 +27,7 @@ Welcome to the our project repository! In this project, we aim to address the ch
 2. [Data Analysis](code/02_data_analysis.ipynb)
 
     - 2.1 Introduction
-    - 2.2 Data Tranformation/Engineering
+    - 2.2 Data Transformation/Engineering
     - 2.3 Analysis/Visuals
     - 2.4 Conclusion
 
@@ -78,9 +78,9 @@ Welcome to the our project repository! In this project, we aim to address the ch
 
 <h2 align='center'>Problem Statement</h2>
 
-With the resurgence of travel following the COVID-19 pandemic, our objective is to develop an advanced predictive model tailored for travel agencies. The model aims to assist travel agencies in providing their customers with personalized recommendations for securing the most cost-effective flight options from a specific airport. By leveraging historical data, the model will predict optimal timeframes for lower-priced flights, enabling travel agencies to offer strategic advice to their customers. This initiative seeks to enhance customer satisfaction, streamline the booking process, and empower travel agencies with actionable insights to navigate the dynamic landscape of airfare pricing and seasonal trends. The model will attempt to optimize for RMSE in order to make our performance as accessible as possible.
+With the resurgence of travel following the COVID-19 pandemic, our objective is to develop an advanced predictive model tailored for travel agencies. The model aims to assist travel agencies in providing their customers with personalized recommendations for securing the most cost-effective flight options from a specific airport. By leveraging historical data, the model will predict optimal timeframes for lower-priced flights, enabling travel agencies to offer strategic advice to their customers. This initiative seeks to enhance customer satisfaction, streamline the booking process, and empower travel agencies with actionable insights to navigate the dynamic landscape of airfare pricing and seasonal trends. The model will attempt to optimize for RMSE to make our performance as accessible as possible.
 
-The goal is to have the Root Mean Squared Error (RMSE) of our flight price and travel assistant model be less than $50 of the actual prices.
+The goal is to have the Root Mean Squared Error (RMSE) of our flight price and travel assistant model be less than $50 off the actual prices.
 
 ---
 
@@ -96,7 +96,7 @@ To address our problem statement, we will explore the following questions:
 
 <h2 align='center'>Part 1: Data Cleaning</h2>
 
-In this section, we will detail the process of acquiring and preparing the data for our predictive model. This includes data gathering, cleaning, and any necessary transformations. Some of the task explored in this section is that we will converted Rupees to USD, duration into minutes, number of stops column changed to numeric, binarize the 'class' column for better modeling and column labels cleaned up.
+In this section, we will detail the process of acquiring and preparing the data for our predictive model. This includes data gathering, cleaning, and any necessary transformations. Some of the tasks explored in this section are that we will convert Rupees to USD, duration into minutes, number of stops column changed to numeric, binarize the 'class' column for better modeling, and column labels cleaned up.
 
 ---
 
@@ -108,8 +108,8 @@ Here, we will delve into the application of the linear regression algorithm to o
 
 <h2 align='center'>Part 3: Data Modeling</h2>
 
-This section will provide an executive summary of our findings, including the evaluation of model performance and key insights derived from the data. Additionally, we will make future recommendation where we will discuss the potential use of a time series model like RNN for future enhancements. Expand upon the online form that when you put in your budget and starting location, the model can predict and advise what directions and locations that would fit your desires. And lastly, take into account the change of
-flight prices over time in order to give a more robust assistance.
+This section will provide an executive summary of our findings, including the evaluation of model performance and key insights derived from the data. Additionally, we will make future recommendations where we will discuss the potential use of a time series model like RNN for future enhancements. Expand upon the online form that when you put in your budget and starting location, the model can predict and advise what directions and locations would fit your desires. And lastly, take into account the change of
+flight prices over time to give more robust assistance.
 
 <br>
 
