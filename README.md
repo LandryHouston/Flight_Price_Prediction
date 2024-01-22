@@ -73,6 +73,16 @@ With the resurgence of travel following the COVID-19 pandemic, our objective is 
 
 ---
 
+## Hypothesis
+
+Null Hypothesis:
+The mean Root Mean Squared Error (RMSE) of our flight price and travel assistant model is greater than or equal to $50 ofthe actual prices, indicating that our model does not effectively predict prices within the acceptable range.
+
+Alternative Hypothesis:
+The mean RMSE of our flight price and travel assistant model is less than 50$ of the actual prices,suggesting that our model successfully predicts prices within the acceptable range.
+
+--- 
+
 ## Questions
 
 To address our problem statement, we will explore the following questions:
@@ -85,13 +95,14 @@ To address our problem statement, we will explore the following questions:
 
 ## Part 1: Data Wrangling/Gathering/Acquisition
 
-In this section, we will detail the process of acquiring and preparing the data for our predictive model. This includes data gathering, cleaning, and any necessary transformations.
+In this section, we will detail the process of acquiring and preparing the data for our predictive model. This includes data gathering, cleaning, and any necessary transformations. Some of the task explored in this section is that we will converted Rupees to USD, duration into minutes, number of stops column changed to numeric, binarize the 'class' column for better modeling and column labels cleaned up.
 
 ---
 
-## Part 2: Data Modeling
+## Part 2: Data Modeling and Executive Summary
 
-Here, we will delve into the application of the linear regression algorithm to our travel data. This section will provide an executive summary of our findings, including the evaluation of model performance and key insights derived from the data. Additionally, we will discuss the potential use of a time series model like RNN for future enhancements.
+Here, we will delve into the application of the linear regression algorithm to our travel data. This section will provide an executive summary of our findings, including the evaluation of model performance and key insights derived from the data. Additionally, we will make future recommendation where we will discuss the potential use of a time series model like RNN for future enhancements. Expand upon the online form that when you put in your budget and starting location, the model can predict and advise what directions and locations that would fit your desires. And lastly, take into account the change of
+flight prices over time in order to give a more robust assistance.
 
 ---
 
