@@ -16,14 +16,11 @@ Welcome to the our project repository! In this project, we aim to address the ch
    - 1.1 Introduction
    - 1.2 Data Collection
    - 1.3 Data Cleaning
-   - 1.4 Data Transformation
 
 2. [Data Analysis](02_Data_Analysis.ipynb)
-   - 2.1 Feature Engineering
-   - 2.2 Linear Regression Algorithm
-   - 2.3 Model Training
-   - 2.4 Model Evaluation
-   - 2.5 Summary and Future Enhancements
+   - 2.1 Introduction
+   - 2.2 Data Tranformation/Engineering
+   - 2.3 Summary/Visuals
   
 3. [Data Modeling](03_Data_Modeling.ipynb)
    - 2.1 Feature Engineering
