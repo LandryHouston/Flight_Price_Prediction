@@ -111,17 +111,20 @@ This analysis explores various factors influencing airline prices, shedding ligh
 This section will provide an executive summary of our findings, including the evaluation of model performance and key insights derived from the data. Four machine learning models were evaluated for predicting flight prices based on selected features, preprocessing, and cleaning methods. The models include Linear Regression, Random Forest, Decision Tree, and Gradient Boost. The Random Forest model, with its robust performance metrics, is recommended for predicting flight prices based on the provided dataset and features. Further optimization, a larger dataset,  and fine-tuning may enhance the model's predictive capabilities.
 
 <div align='center'>
+    
 | Model                | Training Score | Testing Score | RMSE Score |
 |----------------------|-----------------|---------------|------------|
 | Linear Regression    | 0.9428          | 0.9420        | 65.64      |
 | Random Forest        | 0.9793          | 0.9754        | 42.75      |
 | Decision Tree        | 0.9291          | 0.9283        | 72.94      |
 | Gradient Boost (XGB) | 0.9593          | 0.9586        | 55.81      |
+
 </div>
 
 In this notebook, we also employ a Random Forest Classifier to predict the cardinal direction of flights. The goal is to develop a robust model capable of accurately determining flight directions. Through feature importance analysis, we identify arrival time, departure time, and ticket price as crucial predictors. Fine-tuning the model using Grid Search reveals optimal hyperparameters below. The model's effectiveness is evaluated with an accuracy score, reaching a noteworthy 0.8994 on the test set. This notebook provides a comprehensive exploration of the classification modeling process, emphasizing feature selection, model tuning, and insights into the predictive capabilities of the Random Forest Classifier for flight direction prediction.
 
 <div align='center'>
+    
 | Parameter                 | Value |
 |---------------------------|-------|
 | `rfc__max_depth`          | 30    |
@@ -129,6 +132,7 @@ In this notebook, we also employ a Random Forest Classifier to predict the cardi
 | `rfc__min_samples_split`  | 2     |
 | `rfc__n_estimators`       | 160   |
 | accuracy                  |  0.8994 |
+
 </div>
 
 <h2 align='center'> Conclusion </h2>
