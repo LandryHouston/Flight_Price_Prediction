@@ -1,4 +1,4 @@
-# SkyInsight: Predictive Analytics for Cost-Effective Air Travel
+# group-1-project | Fare Play: An Unraveling of the Mystery of Flight Prices
 
 ![AltText](https://www.latentview.com/wp-content/uploads/2023/08/ai-and-analytics-in-the-airline-industry-driving-efficiency-and-enhancing-cx-featured.jpg)
 
@@ -13,45 +13,32 @@ Welcome to the our project repository! In this project, we aim to address the ch
 ## Table of Content
 
 1. [Data Wrangling/Gathering/Acquisition](01_Data_Wrangling_Gathering_Acquisition.ipynb)
-
-    - 1.1 Introduction
-    - 1.2 Data Collection
-    - 1.3 Data Cleaning
-    - 1.4 Data Transformation
-    - 1.5 Summary
+   - 1.1 Introduction
+   - 1.2 Data Collection
+   - 1.3 Data Cleaning
+   - 1.4 Data Transformation
 
 2. [Data Modeling](02_Data_Modeling.ipynb)
+   - 2.1 Feature Engineering
+   - 2.2 Linear Regression Algorithm
+   - 2.3 Model Training
+   - 2.4 Model Evaluation
+   - 2.5 Summary and Future Enhancements
 
-    - 2.1 Linear Regression Algorithm
-    - 2.2 Time Series Modeling (RNN)
-    - 2.3 Model Training
-    - 2.4 Model Evaluation
-    - 2.5 Summary
+3. [Data](data/)
+   - 3.1 Dataset Dictionary
+   - 3.2 Data Files
 
-3. [Data Evaluation/Executive Summary/Recommendation](03_Data_Evaluation_Executive_Summary.ipynb)
+4. [Images](images/)
+   - 4.1 Visualizations
+   - 4.2 Charts
 
-    - 3.1 Model Performance Metrics
-    - 3.2 Key Findings
-    - 3.3 Recommendations, Insights and Conclusions
-    - 3.4 Summary and Future Enhancements
+5. [Presentation](presentation/)
+   - 5.1 PowerPoint Presentation (PDF)
 
-4. [Data](data/)
-
-    - 4.1 Dataset Dictionary
-    - 4.2 Data Files
-
-5. [Images](images/)
-
-    - 5.1 Visualizations
-    - 5.2 Charts
-
-6. [Presentation](presentation/)
-
-    - 6.1 PowerPoint Presentation (PDF)
-
-7. [Model](model/)
-    - 7.1 .gitignore
-    - 7.2 Trained Model (.pkl)
+6. [Model](model/)
+   - 6.1 Trained Model (.pkl)
+   
 
 ---
 
@@ -82,6 +69,16 @@ With the resurgence of travel following the COVID-19 pandemic, our objective is 
 
 ---
 
+## Hypothesis
+
+Null Hypothesis:
+The mean Root Mean Squared Error (RMSE) of our flight price and travel assistant model is greater than or equal to $50 ofthe actual prices, indicating that our model does not effectively predict prices within the acceptable range.
+
+Alternative Hypothesis:
+The mean RMSE of our flight price and travel assistant model is less than 50$ of the actual prices,suggesting that our model successfully predicts prices within the acceptable range.
+
+---
+
 ## Questions
 
 To address our problem statement, we will explore the following questions:
@@ -89,20 +86,19 @@ To address our problem statement, we will explore the following questions:
 1. How can we preprocess and clean the data to ensure accurate predictions?
 2. What features are crucial for predicting optimal timeframes for lower-priced flights?
 3. How generalizable are the insights derived from this specific dataset to other airports or travel scenarios
-4. Are there specific seasons or timeframes where the model's predictions excel or struggle?
-5. What is the impact of external factors (e.g., holidays, events) on the accuracy of the model predictions?
 
 ---
 
 ## Part 1: Data Wrangling/Gathering/Acquisition
 
-In this section, we will detail the process of acquiring and preparing the data for our predictive model. This includes data gathering, cleaning, and any necessary transformations.
+In this section, we will detail the process of acquiring and preparing the data for our predictive model. This includes data gathering, cleaning, and any necessary transformations. Some of the task explored in this section is that we will converted Rupees to USD, duration into minutes, number of stops column changed to numeric, binarize the 'class' column for better modeling and column labels cleaned up.
 
 ---
 
 ## Part 2: Data Modeling
 
-Here, we will delve into the application of the linear regression algorithm to our travel data. Additionally, we will discuss the potential use of a time series model like RNN for future enhancements.
+Here, we will delve into the application of the linear regression algorithm to our travel data. This section will provide an executive summary of our findings, including the evaluation of model performance and key insights derived from the data. Additionally, we will make future recommendation where we will discuss the potential use of a time series model like RNN for future enhancements. Expand upon the online form that when you put in your budget and starting location, the model can predict and advise what directions and locations that would fit your desires. And lastly, take into account the change of
+flight prices over time in order to give a more robust assistance.
 
 ---
 
@@ -112,8 +108,6 @@ This section will provide an executive summary of our findings, including the ev
 
 ---
 
-## Part 4: Recommendation/Further Research
 
-We'll conclude by offering recommendations based on our analysis and suggest avenues for further research to continually improve the predictive model.
 
 ![AltText](https://media.licdn.com/dms/image/D5612AQFwNc05_ndXIQ/article-cover_image-shrink_720_1280/0/1698694514274?e=1710979200&v=beta&t=ibpfjqzM24Lot2cKZ34GcW-3A4rDEQB5G5FKEhNEnhY)
