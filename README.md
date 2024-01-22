@@ -16,7 +16,7 @@ Welcome to the our project repository! In this project, we aim to address the ch
 
 ---
 
-<h2 align='center'>Table of Content</h2>
+<h2 align='center'>Table of Contents</h2>
 
 1. [Data Cleaning](code/01_data_cleaning.ipynb)
 
